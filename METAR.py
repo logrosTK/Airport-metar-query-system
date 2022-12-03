@@ -16,7 +16,7 @@ if __name__ == "__main__":
 	html = response.read()
 	html = html.decode('utf-8')		#根据网页的编码方式进行解码
 	print(html)
-	print("--------------------------------------")
+	ddd="-----------------------------------------------------------------------------------------------------------------------------------------------------"
+	print(ddd[:len(html)])
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')   #改变标准输出的默认编码改回去
 f=str(input("输入任意值关闭程序："))
-
